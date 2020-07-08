@@ -6,7 +6,7 @@ class Fathom
 {
     public static function script($siteId): string
     {
-        if (!$siteId) {
+        if (! $siteId) {
             return '';
         }
 
@@ -15,7 +15,7 @@ class Fathom
 
     public static function goalCompletion($gcode = null, $gval = 0): bool
     {
-        if (!$gcode) {
+        if (! $gcode) {
             return false;
         }
 
