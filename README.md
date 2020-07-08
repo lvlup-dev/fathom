@@ -18,7 +18,7 @@ If you want to support our work, you can :
 You can install the package via composer:
 
 ```bash
-composer require lvlup/fathom
+composer require lvlup-dev/fathom
 ```
 
 ## Usage
