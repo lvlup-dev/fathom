@@ -1,22 +1,23 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "lvlup-dev/fathom",
+    "description": "",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "lvlup-dev",
+        "fathom"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/lvlup-dev/fathom",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "name": "Didier Sampaolo",
+            "email": "didier@lvlup.fr",
+            "homepage": "https://lvlup.fr",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.3|^7.4",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
@@ -25,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Lvlup\\Fathom\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Lvlup\\Fathom\\Tests\\": "tests"
         }
     },
     "scripts": {
