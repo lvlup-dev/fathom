@@ -24,5 +24,7 @@ class Fathom
         $curlHandler = curl_init($uri);
         curl_setopt($curlHandler, CURLOPT_RETURNTRANSFER, 1);
         curl_exec($curlHandler);
+
+        return true;
     }
 }
