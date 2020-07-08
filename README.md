@@ -23,9 +23,16 @@ composer require lvlup/fathom
 
 ## Usage
 
+### Register PageView
+
 ``` php
-$skeleton = new Lvlup-dev\Fathom();
-echo $skeleton->echoPhrase('Hello, Lvlup-dev!');
+Fathom::script(YOUR_SITE_ID)
+```
+
+### Register Goal Completion
+
+``` php
+Fathom::goalCompletion(YOUR_GOAL_ID, VALUE_IN_CENTS)
 ```
 
 ## Testing
